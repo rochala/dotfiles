@@ -1,0 +1,560 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.012  000.012: --- NVIM STARTING ---
+001.668  001.656: locale set
+002.250  000.583: inits 1
+002.280  000.030: window checked
+002.288  000.008: parsing arguments
+003.239  000.950: expanding arguments
+003.316  000.078: inits 2
+003.729  000.413: init highlight
+003.886  000.156: waiting for UI
+007.045  003.160: done waiting for UI
+007.065  000.019: initialized screen early for UI
+009.301  000.335  000.335: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+009.442  000.813  000.478: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/synload.vim
+016.751  007.181  007.181: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+016.811  008.967  000.974: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syntax.vim
+019.691  002.693  002.693: sourcing /Users/jedrzej/.local/share/nvim/site/autoload/plug.vim
+040.714  001.727  001.727: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftoff.vim
+078.027  000.252  000.252: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+081.138  002.546  002.546: sourcing /Users/jedrzej/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+097.939  026.393  023.595: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+112.048  000.209  000.209: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftplugin.vim
+126.405  000.472  000.472: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/indent.vim
+142.237  000.178  000.178: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+157.339  000.187  000.187: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+173.140  000.402  000.402: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/dracula.vim
+175.969  049.321  048.554: sourcing /Users/jedrzej/.config/nvim/plugged/vim-colorschemes/colors/dracula.vim
+448.948  441.602  351.821: sourcing /Users/jedrzej/.config/nvim/init.vim
+448.959  000.291: sourcing vimrc file(s)
+450.122  000.397  000.397: sourcing /Users/jedrzej/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+451.579  000.907  000.907: sourcing /Users/jedrzej/.config/nvim/plugged/vim-surround/plugin/surround.vim
+453.558  001.829  001.829: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+454.535  000.340  000.340: sourcing /Users/jedrzej/.config/nvim/plugged/vim-man/plugin/man.vim
+455.553  000.531  000.531: sourcing /Users/jedrzej/.config/nvim/plugged/undotree/plugin/undotree.vim
+457.287  001.232  001.232: sourcing /Users/jedrzej/.config/nvim/plugged/fzf/plugin/fzf.vim
+459.278  001.280  001.280: sourcing /Users/jedrzej/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+459.594  000.141  000.141: sourcing /Users/jedrzej/.config/nvim/plugged/nvim-lsp/plugin/nvim_lsp.vim
+460.720  000.396  000.396: sourcing /Users/jedrzej/.config/nvim/plugged/completion-nvim/plugin/completion.vim
+461.617  000.329  000.329: sourcing /Users/jedrzej/.config/nvim/plugged/diagnostic-nvim/plugin/diagnostic.vim
+462.377  000.238  000.238: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/plugin/lightline.vim
+493.217  000.614  000.614: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/gzip.vim
+493.492  000.221  000.221: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/health.vim
+493.888  000.350  000.350: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/man.vim
+509.995  000.396  000.396: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+510.056  016.122  015.725: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchit.vim
+510.193  000.086  000.086: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchparen.vim
+510.969  000.731  000.731: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/netrwPlugin.vim
+526.789  000.849  000.849: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/host.vim
+541.887  000.721  000.721: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/define.vim
+542.001  030.678  029.108: sourcing /Users/jedrzej/.local/share/nvim/rplugin.vim
+542.011  030.948  000.270: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/rplugin.vim
+542.429  000.342  000.342: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/shada.vim
+542.599  000.101  000.101: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/spellfile.vim
+542.910  000.251  000.251: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tarPlugin.vim
+543.254  000.288  000.288: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tohtml.vim
+543.399  000.090  000.090: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tutor.vim
+543.689  000.236  000.236: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/zipPlugin.vim
+543.714  036.756: loading plugins
+543.820  000.105: loading packages
+544.905  000.326  000.326: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/after/plugin/dracula.vim
+544.927  000.781: loading after plugins
+544.937  000.010: inits 3
+547.639  002.702: reading ShaDa
+547.728  000.089: opening buffers
+548.901  000.988  000.988: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline.vim
+554.901  005.423  005.423: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/autoload/fugitive.vim
+556.768  000.163  000.163: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim
+574.019  000.557  000.557: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+574.505  001.512  000.955: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/lightline/colorscheme/dracula.vim
+577.517  021.702: BufEnter autocommands
+577.520  000.003: editing files in windows
+577.641  000.121: VimEnter autocommands
+577.643  000.002: UIEnter autocommands
+577.645  000.001: before starting main loop
+583.256  005.612: first screen update
+583.259  000.002: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.010  000.010: --- NVIM STARTING ---
+000.909  000.899: locale set
+001.468  000.559: inits 1
+001.499  000.031: window checked
+001.506  000.007: parsing arguments
+001.769  000.263: expanding arguments
+001.844  000.075: inits 2
+002.284  000.440: init highlight
+002.465  000.181: waiting for UI
+004.758  002.294: done waiting for UI
+004.769  000.010: initialized screen early for UI
+005.696  000.276  000.276: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+005.853  000.559  000.283: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/synload.vim
+012.580  006.580  006.580: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+012.646  007.553  000.414: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syntax.vim
+014.414  001.571  001.571: sourcing /Users/jedrzej/.local/share/nvim/site/autoload/plug.vim
+035.853  001.924  001.924: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftoff.vim
+072.481  000.016  000.016: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+074.613  002.026  002.026: sourcing /Users/jedrzej/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+090.385  023.671  021.629: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+104.923  000.057  000.057: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftplugin.vim
+119.597  000.055  000.055: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/indent.vim
+134.815  000.173  000.173: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+149.555  000.176  000.176: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+164.716  000.093  000.093: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/dracula.vim
+167.460  047.665  047.224: sourcing /Users/jedrzej/.config/nvim/plugged/vim-colorschemes/colors/dracula.vim
+167.996  163.001  080.505: sourcing /Users/jedrzej/.config/nvim/init.vim
+168.004  000.233: sourcing vimrc file(s)
+168.426  000.151  000.151: sourcing /Users/jedrzej/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+169.021  000.459  000.459: sourcing /Users/jedrzej/.config/nvim/plugged/vim-surround/plugin/surround.vim
+170.369  001.191  001.191: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+170.593  000.079  000.079: sourcing /Users/jedrzej/.config/nvim/plugged/vim-man/plugin/man.vim
+170.846  000.119  000.119: sourcing /Users/jedrzej/.config/nvim/plugged/undotree/plugin/undotree.vim
+171.630  000.646  000.646: sourcing /Users/jedrzej/.config/nvim/plugged/fzf/plugin/fzf.vim
+172.464  000.690  000.690: sourcing /Users/jedrzej/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+172.748  000.141  000.141: sourcing /Users/jedrzej/.config/nvim/plugged/completion-nvim/plugin/completion.vim
+172.969  000.088  000.088: sourcing /Users/jedrzej/.config/nvim/plugged/diagnostic-nvim/plugin/diagnostic.vim
+173.236  000.104  000.104: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/plugin/lightline.vim
+203.211  000.344  000.344: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/gzip.vim
+203.280  000.016  000.016: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/health.vim
+203.449  000.127  000.127: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/man.vim
+218.578  000.214  000.214: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+218.640  015.148  014.935: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchit.vim
+218.707  000.018  000.018: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchparen.vim
+219.321  000.572  000.572: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/netrwPlugin.vim
+234.752  000.211  000.211: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/host.vim
+249.521  000.186  000.186: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/define.vim
+249.631  030.060  029.662: sourcing /Users/jedrzej/.local/share/nvim/rplugin.vim
+249.642  030.253  000.193: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/rplugin.vim
+249.950  000.248  000.248: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/shada.vim
+250.033  000.027  000.027: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/spellfile.vim
+250.260  000.177  000.177: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tarPlugin.vim
+250.396  000.083  000.083: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tohtml.vim
+250.469  000.019  000.019: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tutor.vim
+250.678  000.161  000.161: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/zipPlugin.vim
+250.701  031.836: loading plugins
+250.806  000.105: loading packages
+251.056  000.067  000.067: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/after/plugin/dracula.vim
+251.076  000.203: loading after plugins
+251.086  000.010: inits 3
+253.823  002.737: reading ShaDa
+253.910  000.086: opening buffers
+254.449  000.380  000.380: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline.vim
+258.955  003.924  003.924: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/autoload/fugitive.vim
+260.466  000.044  000.044: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim
+277.092  000.181  000.181: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+277.574  000.892  000.711: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/lightline/colorscheme/dracula.vim
+280.639  021.488: BufEnter autocommands
+280.642  000.004: editing files in windows
+280.760  000.118: VimEnter autocommands
+280.763  000.002: UIEnter autocommands
+280.764  000.002: before starting main loop
+286.674  005.909: first screen update
+286.676  000.002: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- NVIM STARTING ---
+001.201  001.192: locale set
+001.764  000.563: inits 1
+001.793  000.029: window checked
+001.800  000.007: parsing arguments
+002.083  000.282: expanding arguments
+002.156  000.073: inits 2
+002.577  000.421: init highlight
+002.732  000.155: waiting for UI
+004.891  002.158: done waiting for UI
+004.901  000.011: initialized screen early for UI
+005.679  000.243  000.243: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+005.822  000.506  000.263: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/synload.vim
+012.035  006.118  006.118: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+012.102  006.919  000.295: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syntax.vim
+013.867  001.577  001.577: sourcing /Users/jedrzej/.local/share/nvim/site/autoload/plug.vim
+036.218  001.892  001.892: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftoff.vim
+070.422  000.016  000.016: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+072.534  002.011  002.011: sourcing /Users/jedrzej/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+088.026  022.830  020.803: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+102.239  000.058  000.058: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftplugin.vim
+116.423  000.057  000.057: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/indent.vim
+116.835  111.747  078.414: sourcing /Users/jedrzej/.config/nvim/init.vim
+116.842  000.193: sourcing vimrc file(s)
+117.238  000.143  000.143: sourcing /Users/jedrzej/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+117.753  000.376  000.376: sourcing /Users/jedrzej/.config/nvim/plugged/vim-surround/plugin/surround.vim
+119.047  001.159  001.159: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+119.269  000.079  000.079: sourcing /Users/jedrzej/.config/nvim/plugged/vim-man/plugin/man.vim
+119.531  000.126  000.126: sourcing /Users/jedrzej/.config/nvim/plugged/undotree/plugin/undotree.vim
+120.284  000.614  000.614: sourcing /Users/jedrzej/.config/nvim/plugged/fzf/plugin/fzf.vim
+121.243  000.826  000.826: sourcing /Users/jedrzej/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+121.538  000.140  000.140: sourcing /Users/jedrzej/.config/nvim/plugged/completion-nvim/plugin/completion.vim
+121.759  000.086  000.086: sourcing /Users/jedrzej/.config/nvim/plugged/diagnostic-nvim/plugin/diagnostic.vim
+122.031  000.103  000.103: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/plugin/lightline.vim
+152.999  000.362  000.362: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/gzip.vim
+153.067  000.016  000.016: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/health.vim
+153.245  000.136  000.136: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/man.vim
+168.916  000.210  000.210: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+168.974  015.685  015.475: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchit.vim
+169.177  000.155  000.155: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchparen.vim
+169.828  000.602  000.602: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/netrwPlugin.vim
+184.473  000.213  000.213: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/host.vim
+198.663  000.197  000.197: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/define.vim
+198.772  028.708  028.298: sourcing /Users/jedrzej/.local/share/nvim/rplugin.vim
+198.781  028.894  000.186: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/rplugin.vim
+199.094  000.252  000.252: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/shada.vim
+199.222  000.030  000.030: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/spellfile.vim
+199.495  000.221  000.221: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tarPlugin.vim
+199.636  000.086  000.086: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tohtml.vim
+199.706  000.020  000.020: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tutor.vim
+199.930  000.175  000.175: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/zipPlugin.vim
+199.954  032.828: loading plugins
+200.057  000.103: loading packages
+214.914  000.091  000.091: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/dracula.vim
+214.938  014.700  014.609: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/after/plugin/dracula.vim
+214.967  000.210: loading after plugins
+214.978  000.011: inits 3
+217.595  002.616: reading ShaDa
+217.691  000.096: opening buffers
+218.229  000.369  000.369: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline.vim
+222.998  004.273  004.273: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/autoload/fugitive.vim
+224.596  000.044  000.044: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim
+240.589  000.185  000.185: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+241.085  000.915  000.729: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/lightline/colorscheme/dracula.vim
+244.006  020.714: BufEnter autocommands
+244.010  000.003: editing files in windows
+244.120  000.110: VimEnter autocommands
+244.122  000.002: UIEnter autocommands
+244.124  000.001: before starting main loop
+250.259  006.135: first screen update
+250.283  000.025: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- NVIM STARTING ---
+000.920  000.911: locale set
+001.455  000.535: inits 1
+001.483  000.028: window checked
+001.489  000.006: parsing arguments
+001.842  000.353: expanding arguments
+001.931  000.089: inits 2
+002.335  000.404: init highlight
+002.496  000.161: waiting for UI
+005.053  002.557: done waiting for UI
+005.066  000.013: initialized screen early for UI
+005.994  000.364  000.364: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+006.178  000.669  000.305: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/synload.vim
+012.185  005.890  005.890: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+012.240  006.880  000.320: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syntax.vim
+014.057  001.643  001.643: sourcing /Users/jedrzej/.local/share/nvim/site/autoload/plug.vim
+034.798  001.719  001.719: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftoff.vim
+070.296  000.016  000.016: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+072.219  001.816  001.816: sourcing /Users/jedrzej/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+088.009  023.160  021.328: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+102.302  000.058  000.058: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftplugin.vim
+116.770  000.058  000.058: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/indent.vim
+130.856  000.170  000.170: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+146.100  000.154  000.154: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+161.435  000.094  000.094: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/dracula.vim
+164.124  047.156  046.738: sourcing /Users/jedrzej/.config/nvim/plugged/vim-colorschemes/colors/dracula.vim
+164.585  159.326  078.653: sourcing /Users/jedrzej/.config/nvim/init.vim
+164.592  000.200: sourcing vimrc file(s)
+165.022  000.152  000.152: sourcing /Users/jedrzej/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+165.550  000.392  000.392: sourcing /Users/jedrzej/.config/nvim/plugged/vim-surround/plugin/surround.vim
+167.036  001.189  001.189: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+167.261  000.078  000.078: sourcing /Users/jedrzej/.config/nvim/plugged/vim-man/plugin/man.vim
+167.577  000.152  000.152: sourcing /Users/jedrzej/.config/nvim/plugged/undotree/plugin/undotree.vim
+168.329  000.612  000.612: sourcing /Users/jedrzej/.config/nvim/plugged/fzf/plugin/fzf.vim
+169.233  000.768  000.768: sourcing /Users/jedrzej/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+169.509  000.133  000.133: sourcing /Users/jedrzej/.config/nvim/plugged/completion-nvim/plugin/completion.vim
+169.857  000.096  000.096: sourcing /Users/jedrzej/.config/nvim/plugged/diagnostic-nvim/plugin/diagnostic.vim
+170.140  000.104  000.104: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/plugin/lightline.vim
+199.179  000.341  000.341: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/gzip.vim
+199.244  000.015  000.015: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/health.vim
+199.407  000.122  000.122: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/man.vim
+214.093  000.210  000.210: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+214.152  014.704  014.493: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchit.vim
+214.217  000.016  000.016: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchparen.vim
+214.843  000.584  000.584: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/netrwPlugin.vim
+229.206  000.215  000.215: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/host.vim
+243.687  000.188  000.188: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/define.vim
+243.797  028.703  028.300: sourcing /Users/jedrzej/.local/share/nvim/rplugin.vim
+243.808  028.901  000.198: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/rplugin.vim
+244.122  000.254  000.254: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/shada.vim
+244.210  000.028  000.028: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/spellfile.vim
+244.458  000.195  000.195: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tarPlugin.vim
+244.600  000.085  000.085: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tohtml.vim
+244.673  000.020  000.020: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tutor.vim
+244.896  000.172  000.172: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/zipPlugin.vim
+244.919  031.214: loading plugins
+245.024  000.105: loading packages
+245.273  000.067  000.067: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/after/plugin/dracula.vim
+245.293  000.202: loading after plugins
+245.304  000.010: inits 3
+248.052  002.748: reading ShaDa
+248.136  000.084: opening buffers
+248.679  000.358  000.358: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline.vim
+249.283  000.042  000.042: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim
+249.966  000.170  000.170: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+251.838  002.223  002.052: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim
+251.851  002.375  000.152: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/default.vim
+254.894  003.984: BufEnter autocommands
+254.897  000.003: editing files in windows
+255.013  000.116: VimEnter autocommands
+255.015  000.002: UIEnter autocommands
+255.017  000.002: before starting main loop
+255.902  000.885: first screen update
+255.904  000.003: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- NVIM STARTING ---
+000.972  000.963: locale set
+001.524  000.552: inits 1
+001.552  000.028: window checked
+001.558  000.006: parsing arguments
+001.793  000.235: expanding arguments
+001.862  000.069: inits 2
+002.284  000.422: init highlight
+002.438  000.154: waiting for UI
+004.735  002.297: done waiting for UI
+004.747  000.012: initialized screen early for UI
+005.479  000.260  000.260: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+005.616  000.503  000.243: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/synload.vim
+012.464  006.757  006.757: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+012.526  007.539  000.279: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syntax.vim
+014.321  001.608  001.608: sourcing /Users/jedrzej/.local/share/nvim/site/autoload/plug.vim
+017.125  001.228  001.228: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftoff.vim
+024.533  000.018  000.018: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+026.744  002.104  002.104: sourcing /Users/jedrzej/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+026.902  008.799  006.677: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+027.086  000.039  000.039: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftplugin.vim
+027.251  000.030  000.030: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/indent.vim
+028.044  000.146  000.146: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+028.517  000.128  000.128: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+028.734  000.070  000.070: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/dracula.vim
+031.751  004.298  003.955: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/colors/dracula.vim
+032.210  027.310  003.768: sourcing /Users/jedrzej/.config/nvim/init.vim
+032.218  000.162: sourcing vimrc file(s)
+032.626  000.147  000.147: sourcing /Users/jedrzej/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+033.196  000.398  000.398: sourcing /Users/jedrzej/.config/nvim/plugged/vim-surround/plugin/surround.vim
+034.601  001.267  001.267: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+034.834  000.080  000.080: sourcing /Users/jedrzej/.config/nvim/plugged/vim-man/plugin/man.vim
+035.090  000.123  000.123: sourcing /Users/jedrzej/.config/nvim/plugged/undotree/plugin/undotree.vim
+035.870  000.641  000.641: sourcing /Users/jedrzej/.config/nvim/plugged/fzf/plugin/fzf.vim
+036.766  000.717  000.717: sourcing /Users/jedrzej/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+037.057  000.141  000.141: sourcing /Users/jedrzej/.config/nvim/plugged/completion-nvim/plugin/completion.vim
+037.278  000.087  000.087: sourcing /Users/jedrzej/.config/nvim/plugged/diagnostic-nvim/plugin/diagnostic.vim
+037.511  000.103  000.103: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/plugin/lightline.vim
+038.070  000.171  000.171: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/gzip.vim
+038.128  000.013  000.013: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/health.vim
+038.242  000.075  000.075: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/man.vim
+039.181  000.188  000.188: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+039.233  000.950  000.761: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchit.vim
+039.294  000.017  000.017: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchparen.vim
+039.736  000.401  000.401: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/netrwPlugin.vim
+040.463  000.368  000.368: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/host.vim
+041.698  000.213  000.213: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/define.vim
+041.804  001.846  001.265: sourcing /Users/jedrzej/.local/share/nvim/rplugin.vim
+041.814  002.023  000.176: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/rplugin.vim
+042.137  000.257  000.257: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/shada.vim
+042.224  000.027  000.027: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/spellfile.vim
+042.414  000.142  000.142: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tarPlugin.vim
+042.548  000.082  000.082: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tohtml.vim
+042.615  000.019  000.019: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tutor.vim
+042.818  000.156  000.156: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/zipPlugin.vim
+042.842  002.588: loading plugins
+042.945  000.103: loading packages
+043.185  000.065  000.065: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/after/plugin/dracula.vim
+043.205  000.194: loading after plugins
+043.215  000.010: inits 3
+046.141  002.926: reading ShaDa
+046.228  000.088: opening buffers
+046.768  000.390  000.390: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline.vim
+051.533  004.279  004.279: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/autoload/fugitive.vim
+053.106  000.049  000.049: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim
+053.655  000.173  000.173: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+054.132  000.833  000.659: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/lightline/colorscheme/dracula.vim
+057.045  005.267: BufEnter autocommands
+057.048  000.003: editing files in windows
+057.157  000.108: VimEnter autocommands
+057.159  000.002: UIEnter autocommands
+057.160  000.001: before starting main loop
+062.674  005.514: first screen update
+062.677  000.002: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- NVIM STARTING ---
+000.908  000.899: locale set
+001.459  000.551: inits 1
+001.488  000.029: window checked
+001.494  000.006: parsing arguments
+001.739  000.245: expanding arguments
+001.820  000.081: inits 2
+002.267  000.447: init highlight
+002.429  000.162: waiting for UI
+004.780  002.351: done waiting for UI
+004.793  000.013: initialized screen early for UI
+005.525  000.251  000.251: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+005.654  000.486  000.235: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/synload.vim
+012.521  006.776  006.776: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+012.584  007.548  000.286: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syntax.vim
+014.432  001.654  001.654: sourcing /Users/jedrzej/.local/share/nvim/site/autoload/plug.vim
+017.441  001.335  001.335: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftoff.vim
+023.943  000.017  000.017: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+026.128  002.077  002.077: sourcing /Users/jedrzej/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+026.385  007.952  005.858: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+026.635  000.053  000.053: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftplugin.vim
+026.847  000.042  000.042: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/indent.vim
+027.862  000.198  000.198: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+028.669  000.139  000.139: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+028.913  000.077  000.077: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/dracula.vim
+032.574  005.533  005.118: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/colors/dracula.vim
+033.201  028.249  004.132: sourcing /Users/jedrzej/.config/nvim/init.vim
+033.212  000.169: sourcing vimrc file(s)
+033.627  000.142  000.142: sourcing /Users/jedrzej/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+034.121  000.360  000.360: sourcing /Users/jedrzej/.config/nvim/plugged/vim-surround/plugin/surround.vim
+035.430  001.176  001.176: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+035.662  000.091  000.091: sourcing /Users/jedrzej/.config/nvim/plugged/vim-man/plugin/man.vim
+035.917  000.123  000.123: sourcing /Users/jedrzej/.config/nvim/plugged/undotree/plugin/undotree.vim
+036.669  000.613  000.613: sourcing /Users/jedrzej/.config/nvim/plugged/fzf/plugin/fzf.vim
+037.589  000.723  000.723: sourcing /Users/jedrzej/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+044.312  006.575  006.575: sourcing /Users/jedrzej/.config/nvim/plugged/nvim-lsp/plugin/nvim_lsp.vim
+044.624  000.152  000.152: sourcing /Users/jedrzej/.config/nvim/plugged/completion-nvim/plugin/completion.vim
+044.850  000.087  000.087: sourcing /Users/jedrzej/.config/nvim/plugged/diagnostic-nvim/plugin/diagnostic.vim
+045.249  000.268  000.268: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/plugin/lightline.vim
+045.983  000.255  000.255: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/gzip.vim
+046.045  000.012  000.012: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/health.vim
+046.166  000.079  000.079: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/man.vim
+047.247  000.186  000.186: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+047.298  001.091  000.905: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchit.vim
+047.358  000.016  000.016: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchparen.vim
+047.824  000.425  000.425: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/netrwPlugin.vim
+049.475  000.255  000.255: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/host.vim
+049.914  000.193  000.193: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/define.vim
+050.017  000.980  000.532: sourcing /Users/jedrzej/.local/share/nvim/rplugin.vim
+050.028  001.236  000.256: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/rplugin.vim
+050.369  000.276  000.276: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/shada.vim
+050.469  000.031  000.031: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/spellfile.vim
+050.693  000.168  000.168: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tarPlugin.vim
+050.848  000.096  000.096: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tohtml.vim
+050.929  000.025  000.025: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tutor.vim
+051.181  000.198  000.198: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/zipPlugin.vim
+051.208  003.778: loading plugins
+051.325  000.117: loading packages
+051.615  000.083  000.083: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/after/plugin/dracula.vim
+051.642  000.234: loading after plugins
+051.653  000.011: inits 3
+054.408  002.755: reading ShaDa
+054.498  000.090: opening buffers
+055.028  000.365  000.365: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline.vim
+059.505  003.973  003.973: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/autoload/fugitive.vim
+061.056  000.044  000.044: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim
+061.591  000.165  000.165: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+062.056  000.813  000.648: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/lightline/colorscheme/dracula.vim
+065.445  005.751: BufEnter autocommands
+065.449  000.004: editing files in windows
+065.579  000.131: VimEnter autocommands
+065.582  000.002: UIEnter autocommands
+065.583  000.001: before starting main loop
+071.948  006.365: first screen update
+071.952  000.004: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.009  000.009: --- NVIM STARTING ---
+001.159  001.150: locale set
+001.723  000.563: inits 1
+001.753  000.030: window checked
+001.760  000.007: parsing arguments
+002.019  000.259: expanding arguments
+002.102  000.083: inits 2
+002.727  000.625: init highlight
+002.962  000.235: waiting for UI
+005.210  002.249: done waiting for UI
+005.220  000.009: initialized screen early for UI
+005.932  000.236  000.236: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+006.064  000.478  000.242: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/synload.vim
+013.019  006.861  006.861: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+013.083  007.630  000.290: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syntax.vim
+014.982  001.706  001.706: sourcing /Users/jedrzej/.local/share/nvim/site/autoload/plug.vim
+018.427  001.529  001.529: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftoff.vim
+026.005  000.019  000.019: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+028.196  002.075  002.075: sourcing /Users/jedrzej/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+028.411  008.828  006.733: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/filetype.vim
+028.616  000.040  000.040: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/ftplugin.vim
+028.829  000.061  000.061: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/indent.vim
+029.711  000.164  000.164: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+030.226  000.133  000.133: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/syntax/syncolor.vim
+030.477  000.080  000.080: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/dracula.vim
+033.631  004.520  004.143: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/colors/dracula.vim
+044.821  039.452  015.138: sourcing /Users/jedrzej/.config/nvim/init.vim
+044.830  000.158: sourcing vimrc file(s)
+046.208  000.192  000.192: sourcing /Users/jedrzej/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+047.674  000.469  000.469: sourcing /Users/jedrzej/.config/nvim/plugged/vim-surround/plugin/surround.vim
+049.266  001.393  001.393: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+050.348  000.115  000.115: sourcing /Users/jedrzej/.config/nvim/plugged/vim-man/plugin/man.vim
+050.670  000.145  000.145: sourcing /Users/jedrzej/.config/nvim/plugged/undotree/plugin/undotree.vim
+051.694  000.856  000.856: sourcing /Users/jedrzej/.config/nvim/plugged/fzf/plugin/fzf.vim
+052.652  000.797  000.797: sourcing /Users/jedrzej/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+052.879  000.068  000.068: sourcing /Users/jedrzej/.config/nvim/plugged/nvim-lsp/plugin/nvim_lsp.vim
+053.768  000.186  000.186: sourcing /Users/jedrzej/.config/nvim/plugged/completion-nvim/plugin/completion.vim
+054.073  000.110  000.110: sourcing /Users/jedrzej/.config/nvim/plugged/diagnostic-nvim/plugin/diagnostic.vim
+054.514  000.275  000.275: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/plugin/lightline.vim
+055.172  000.206  000.206: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/gzip.vim
+055.238  000.014  000.014: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/health.vim
+055.368  000.085  000.085: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/man.vim
+056.481  000.208  000.208: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+056.538  001.123  000.915: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchit.vim
+056.607  000.018  000.018: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/matchparen.vim
+057.118  000.465  000.465: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/netrwPlugin.vim
+058.351  000.214  000.214: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/host.vim
+058.796  000.195  000.195: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/autoload/remote/define.vim
+058.900  000.941  000.531: sourcing /Users/jedrzej/.local/share/nvim/rplugin.vim
+058.909  001.187  000.247: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/rplugin.vim
+059.269  000.296  000.296: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/shada.vim
+059.418  000.033  000.033: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/spellfile.vim
+059.733  000.257  000.257: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tarPlugin.vim
+059.895  000.097  000.097: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tohtml.vim
+059.973  000.022  000.022: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/tutor.vim
+060.268  000.242  000.242: sourcing /usr/local/Cellar/neovim/HEAD-70d4b31/share/nvim/runtime/plugin/zipPlugin.vim
+060.294  006.812: loading plugins
+060.412  000.118: loading packages
+060.696  000.077  000.077: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/after/plugin/dracula.vim
+060.730  000.241: loading after plugins
+060.740  000.010: inits 3
+063.355  002.615: reading ShaDa
+063.512  000.157: opening buffers
+064.346  000.522  000.522: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline.vim
+069.680  004.800  004.800: sourcing /Users/jedrzej/.config/nvim/plugged/vim-fugitive/autoload/fugitive.vim
+071.283  000.048  000.048: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim
+071.840  000.175  000.175: sourcing /Users/jedrzej/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+072.314  000.833  000.658: sourcing /Users/jedrzej/.config/nvim/plugged/dracula/autoload/lightline/colorscheme/dracula.vim
+075.231  005.517: BufEnter autocommands
+075.235  000.003: editing files in windows
+075.347  000.112: VimEnter autocommands
+075.349  000.002: UIEnter autocommands
+075.350  000.001: before starting main loop
+081.106  005.756: first screen update
+081.109  000.003: --- NVIM STARTED ---

@@ -1,0 +1,103 @@
+{
+    ;; !  | means mandatory
+    ;; #  | means optional
+    ;; !! | mandatory command + control + optional + shift (hyper)
+    ;; ## | optional any
+
+    ;; to understand better how modifiers work in karabiner
+    ;; karabiner definition of mandatory and optional
+    ;; https://pqrs.org/osx/karabiner/json.html#from-event-definition-modifiers
+
+    ;; C  | left_command
+    ;; T  | left_control
+    ;; O  | left_option
+    ;; S  | left_shift
+    ;; F  | fn
+    ;; Q  | right_command
+    ;; W  | right_control
+    ;; E  | right_option
+    ;; R  | right_shift
+    ;; need to prefix C T O S F with ! or #
+
+:profiles {
+    :Default {  :default true
+                :sim     50     ;; simultaneous_threshold_milliseconds (def: 50)
+                                ;; eys need to be pressed within this threshold to be considered simultaneous
+                :delay   500    ;; to_delayed_action_delay_milliseconds (def: 500)
+                                ;; basically it means time after which the key press is count delayed
+                :alone   500    ;; to_if_alone_timeout_milliseconds (def: 1000)
+                                ;; hold for 995s and single tap registered; hold for 1005s and seen as modifier
+                :held    1000   ;; to_if_held_down_threshold_milliseconds (def: 500)
+                                ;; key is fired twice when 500 ms is elapsed (otherwise seen as a hold command)
+             }
+} ;; profiles
+
+:templates {
+
+    :script "osascript -e 'try tell application \"Spotify\" %s end tell end try return"
+    :open "open \"%s\""
+} ;; templates
+
+;; Define different kinds of keyboards
+:devices {
+    :apl-usb-int [{:vendor_id 1452, :product_id 635 }]  ;; Apple Internal & Magic Keyboard (USB)
+} ;; devices
+
+;; layers are basically "hyper" keys
+;; press this in combination with something else and depending on your rule, make things happen
+:layers {
+} ;; layers
+
+;; simlayers are basically "hyper" keys
+;; layers works too, but only recommended for non-typing keys like . or tab
+;; or keys like z which are used less often
+:simlayers {
+    :close-bracket-mode {:key :close_bracket}
+    :leader-mode {:key :spacebar}
+    :open-bracket-mode  {:key :open_bracket}
+} ;; simlayers
+
+;; main contains multiple manipulators
+:main [
+
+    ;; each manipulator has a description and multiple rules
+
+    ;;{:des "..."                               ;; -> description
+    ;; :rules[
+    ;;          [<from>  <to>  <conditions> <other options>]    ;; -> rule 1
+    ;;          [<from>  <to>  <conditions> <other options>]    ;; -> rule 2
+    ;; ]}
+    ;;
+    ;; <from> can be keywords defined in froms or keycodes without `{:not-from true}`
+    ;; <to> can be keywords defined in tos, keycodes without `{:not-to true}` or strings (shell script)
+    ;; <conditions> can be keywords defined in layers, devices, applications
+    ;; <other options> {:other {:parameters {:to_delayed_action_delay_milliseconds 100 :basic.to_if_alone_timeout_milliseconds 500 :basic.to_if_held_down_threshold_milliseconds 250}} }
+
+    ;; if simplified modifier is used in <to>, optional(#) definition will be ignored.
+
+    ;; (custom variables) & modifiers -> Advanced
+    ;; https://github.com/yqrashawn/GokuRakuJoudo/blob/master/examples.org#custom-variable
+
+    {:des "super leader key"
+     :rules [:leader-mode
+                [:return_or_enter :!Ta ]
+            ]}
+
+    {:des "tes"
+     :rules [
+                [:spacebar :spacebar nil { :alone :spacebar }]
+            ]}
+
+    {:des "scripts"
+     :rules [
+              [:f15 [:script "playpause"]],
+              [:f14 [:script "previous track"]],
+              [:f16 [:script "next track"]]
+            ]}
+
+    {:des "shift backspace -> del"
+     :rules [
+                [:!Sdelete_or_backspace :delete_forward]
+            ]}
+] ;; main list
+}

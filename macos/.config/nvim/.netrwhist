@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/rochala/Projects/College/skryptowe20/frontend'
+let g:netrw_dirhist_3='/Users/rochala/Projects/College/skryptowe20/frontend/src/components'
+let g:netrw_dirhist_2='/Users/rochala/Projects/College/skryptowe20/frontend/src'
+let g:netrw_dirhist_1='/Users/rochala/Projects/College/skryptowe20/frontend'
+let g:netrw_dirhist_0='/Users/rochala/Projects/College/skryptowe20/frontend/templates/frontend'
+let g:netrw_dirhist_9='/Users/rochala/Projects/College/skryptowe20/frontend/templates'
+let g:netrw_dirhist_8='/Users/rochala/Projects/College/skryptowe20/frontend/src/components'
+let g:netrw_dirhist_7='/Users/rochala/.dotfiles/macos/.config/nvim/plugged/nvim-treesitter/plugin'
+let g:netrw_dirhist_6='/Users/rochala/.dotfiles/macos/.config/nvim/plugged/vimspector/support/test/rust/vimspector_test/src'
+let g:netrw_dirhist_5='/Users/rochala/.dotfiles/macos/.config/nvim'
