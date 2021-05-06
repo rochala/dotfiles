@@ -82,7 +82,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/lsp-status.nvim'
 Plug 'nvim-lua/completion-nvim'
 Plug 'tjdevries/lsp_extensions.nvim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'puremourning/vimspector'
 Plug 'szw/vim-maximizer'
 
@@ -169,13 +169,12 @@ vnoremap K :m '<-2<CR>gv=gv
 vnoremap X "_d
 
 nnoremap <leader>u :UndotreeShow<CR>
-nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
+nnoremap <Leader>\ :so ~/.config/nvim/init.vim<CR>
 nnoremap <Leader>[ :vertical resize +5<CR>
 nnoremap <Leader>] :vertical resize -5<CR>
 
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
 
 nnoremap <leader>gc :GBranches<CR>
 nnoremap <leader>ga :Git fetch --all<CR>

@@ -5,6 +5,12 @@ fpath+=$HOME/.zsh/pure
 export TERM=xterm-256color
 export PAGER=less
 
+export EDITOR=nvim
+export VISUAL="$EDITOR"
+
+ENABLE_CORRECTION="false"
+
+
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
 export LESS_TERMCAP_me=$'\e[0m'
@@ -110,3 +116,4 @@ fi
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export PATH="$PATH:/Users/rochala/Library/Application Support/Coursier/bin"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
